@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin-left: 5%;
+}
+.title {
+  font-size: 3rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+.description {
+  text-align: center;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+.button {
+  background-color: rgb(255, 255, 255, 0.05);
+  color: white;
+  font-size: 1rem;
+  align-self: center;
+  text-align: center;
+  text-decoration: none;
+  padding: 0.8rem;
+  border-radius: 35px;
+  margin-bottom: 1rem;
+  width: 100%;
+  max-width: 20rem;
+}
+.img {
+  display: block;
+  margin: 0 auto;
+}
